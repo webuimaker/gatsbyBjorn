@@ -1,0 +1,16 @@
+.about-info{
+	background-image: url('../images/circlebg.png');
+  background-repeat: no-repeat;    
+  background-size: 60%;
+    background-position: 100% 0%;
+}
+.sec3{
+	background:$primary;
+	overflow: hidden;
+	
+	.imagebg{
+		background-image: url('../images/sec3image.jpg');
+		background-repeat: no-repeat;    
+		background-size: cover;
+	}
+}

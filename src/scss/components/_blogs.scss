@@ -1,0 +1,63 @@
+.newslist{
+	.list{border-bottom:1px solid #f1f1f1; padding:50px 0px;}
+	.date{font-size: 0.7em;}
+	h2{font-size:1.5em; font-weight:600}
+	.badge{
+		border:1px solid #9b9b9b;
+		border-radius:4px;
+		font-size: 0.7em;
+		padding: 4px;
+	}
+	.image-list{
+		li{
+			list-style:none;
+			display:inline-block;
+			margin:4px;
+			width:90px;
+			height:90px;
+			
+			img{
+				max-width:100%;
+			}
+		}
+	}
+	
+
+}
+
+.card {
+  margin: 0 auto;
+}
+.card .carousel-item {
+  height: 200px;
+}
+.card .carousel-caption {
+  padding: 0;
+  right: 0;
+  left: 0;
+  color: #3d3d3d;
+}
+.card .carousel-caption h3 {
+  color: #3d3d3d;
+}
+.card .carousel-caption p {
+  line-height: 30px;
+}
+.card .carousel-caption .col-sm-3 {
+  display: flex;
+  align-items: center;
+}
+.card .carousel-caption .col-sm-9 {
+  text-align: left;
+}
+.navi a {
+    text-decoration:none;
+}
+a > .ico {
+    background-color: grey;
+    padding: 10px;
+    
+}
+a:hover > .ico {
+    background-color: #666;
+}
